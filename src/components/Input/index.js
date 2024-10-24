@@ -1,11 +1,11 @@
 import './Input.css'
 
-export default function Input() {
+export default function Input(props) {
     return(
         <>
             <div className="campo-texto">
-                <label> Nome </label>
-                <input placeholder="Digite o seu nome" />
+                <label> {props.label} </label>
+                <input placeholder={props.placeholder} />
             </div>
         </>
     )

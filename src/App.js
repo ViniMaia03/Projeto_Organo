@@ -6,7 +6,9 @@ function App() {
     <>
       <Banner />
       <h1> Olá, mundo! </h1>
-      <Input />
+      <Input label="Nome" placeholder="Digite seu nome" />
+      <Input label="E-mail" placeholder="Digite seu e-mail" />
+      <Input label="Imagem" placeholder="Digite o endereço de imagem" />
     </>
   );
 }

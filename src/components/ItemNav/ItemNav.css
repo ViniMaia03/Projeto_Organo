@@ -1,0 +1,15 @@
+.item-nav {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item-nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.item-nav a:hover {
+    color: red;
+    transition: .3s;
+}

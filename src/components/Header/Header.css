@@ -1,0 +1,15 @@
+.cabecalho {
+    padding: 36px 64px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.img-header {
+    width: 250px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+}

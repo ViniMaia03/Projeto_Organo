@@ -1,9 +1,4 @@
-:root {
-    --azul-principal: #592848;
-}
-
 .banner {
-    background-color: var(--azul-principal);
     text-align: center;
 }
 

@@ -17,7 +17,7 @@ export default function Formulario() {
     return (
         <>
             <section className="formulario">
-                <form>
+                <form id='cadastro'>
                     <h2> Preencha os dados para criar o card do super-herói: </h2>
 
                     <Input label="Nome" placeholder="Digite seu nome" />

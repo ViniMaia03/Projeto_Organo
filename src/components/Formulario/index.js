@@ -1,3 +1,4 @@
+import Botao from '../Botao'
 import Input from '../Input'
 import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
@@ -22,8 +23,9 @@ export default function Formulario() {
 
                     <Input label="Nome" placeholder="Digite seu nome" />
                     <Input label="Poder" placeholder="Digite seu poder" />
-                    <Input label="Imagem" placeholder="Digite o endereço de imagem" />
+                    <Input label="Imagem" placeholder="https/" />
                     <ListaSuspensa label="Times" itens={times} />
+                    <Botao> Criar card </Botao>
                 </form>
             </section>
         </>

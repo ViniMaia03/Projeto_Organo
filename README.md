@@ -11,3 +11,8 @@
 - A estilizar componentes com CSS;
 - Analisei as dependências do projeto;
 - Analisei os comandos disponíveis no package.json;
+
+- Aprendi como passar props para um componente `functios Exemplo(props)`;
+- Renderizei listas(Array) com o .map;
+- Trabalhei com elementos aninhados usando a prop `children`;
+- Ouvimos elementos disparados pelo DOM: o **onSubmit** do nosso form.

@@ -15,15 +15,19 @@ export default function Formulario() {
         'Eternos'
     ]
 
+    const aoSalvar = (evento) => {
+        evento.preventDefault()
+    }
+
     return (
         <>
             <section className="formulario">
-                <form id='cadastro'>
+                <form id='cadastro' onSubmit={aoSalvar}>
                     <h2> Preencha os dados para criar o card do super-herói: </h2>
 
-                    <Input label="Nome" placeholder="Digite seu nome" />
-                    <Input label="Poder" placeholder="Digite seu poder" />
-                    <Input label="Imagem" placeholder="https/" />
+                    <Input obrigatorio={true} label="Nome" placeholder="Digite seu nome" />
+                    <Input obrigatorio={true} label="Poder" placeholder="Digite seu poder" />
+                    <Input obrigatorio={true} label="Imagem" placeholder="https/" />
                     <ListaSuspensa label="Times" itens={times} />
                     <Botao> Criar card </Botao>
                 </form>

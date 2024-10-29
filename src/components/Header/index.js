@@ -9,7 +9,7 @@ export default function Header() {
 
                 <nav className='navegacao'>
                     <ItemNav li="Cadastrar Herói" href='#cadastro' />
-                    <ItemNav li="Times" href='#' />
+                    <ItemNav li="Times" href='#times' />
                 </nav>
             </header>
         </>

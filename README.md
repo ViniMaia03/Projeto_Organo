@@ -2,6 +2,7 @@
 
 ## Projeto desenvolvido a partir do curso **React: Desenvolvendo com JavaScript** - Alura
 
+https://herohub-hazel.vercel.app/
 ---
 
 ### O que aprendi:

@@ -11,7 +11,7 @@
     width: 100px;
     border-radius: 50%;
     position: relative;
-    bottom: -50px;
+    bottom: -70px;
     margin-left: 25px;
 }
 
@@ -19,7 +19,7 @@
     background-color: #fff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
-    padding-top: 90px;
+    padding-top: 70px;
     padding-bottom: 40px;
 }
 

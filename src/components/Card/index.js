@@ -1,10 +1,10 @@
 import './Card.css'
 
-export default function Card({nome, poder, imagem, corPrimaria}) {
+export default function Card({nome, poder, imagem, corDeFundo}) {
     return(
         <>
             <div className='card'>
-                <div className='cabecalho'>
+                <div className='cabecalho' style={{backgroundColor: corDeFundo}}>
                     <img src={imagem} alt={nome} />
                 </div>
 

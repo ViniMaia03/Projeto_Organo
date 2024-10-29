@@ -1,13 +1,18 @@
-import Banner from './components/Banner';
+import { useState } from 'react';
 import Formulario from './components/Formulario';
 import Header from './components/Header';
-import Input from './components/Input';
 
 function App() {
+
+  const [heroi, setHeroi] = useState([])
+  const aoNovoHeroiAdd = (superheroi) => {
+    setHeroi([...heroi, superheroi])
+  }
+
   return (
     <>
       <Header />
-      <Formulario />
+      <Formulario aoSuperHeroiCadastrado={superheroi => aoNovoHeroiAdd(superheroi)} />
     </>
   );
 }
